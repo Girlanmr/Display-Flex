@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ex1 main{
+    display: flex;
+}
+.ex1 aside{
+    background: blueviolet;
+    padding: 30px;
+}
+.ex1 article{
+    padding: 30px;
+    background: yellowgreen;
+}
+.ex2 main{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.ex2 aside{
+    background: blueviolet;
+    padding: 30px;
+}
+.ex2 article{
+    padding: 30px;
+    background: yellowgreen;
+}
+.ex3 main{
+    display: flex;
+}
+.ex3 aside{
+    order: 2;
+    background: blueviolet;
+    padding: 30px;
+}
+.ex3 article{
+    order: 1;
+    padding: 30px;
+    background: yellowgreen;
+}
+.ex4 main{
+    display: flex;
+    align-items: center;
+}
+.ex4 aside{
+    order: 2;
+    background: blueviolet;
+    padding: 30px;
+}
+.ex4 article{
+    order: 1;
+    padding: 30px;
+    background: yellowgreen;
+}
